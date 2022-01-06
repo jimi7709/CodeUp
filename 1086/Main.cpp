@@ -12,6 +12,6 @@ int main(void) {
 
 		output = ((double)(w * h * b)) / (8*1024*1024);
 	}
-	printf("%.2f", output);
+	printf("%.2f MB", output);
 	return 0;
 }
